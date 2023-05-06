@@ -1,5 +1,7 @@
 import numpy as np
 
+# matrix multiplication
+
 arr1 = np.matrix([[1, 2], [3, 4]])
 arr2 = np.matrix([[1, 2], [3, 4]])
 result = arr1 * arr2
@@ -11,6 +13,14 @@ print(type(result))
 # [[ 7 10]
 #  [15 22]]
 # <class 'numpy.matrix'>
+
+# matrix addition
+
+ar1 = np.matrix([[1, 9], [3, 8]])
+ar2 = np.matrix([[4, 24], [6, 7]])
+output = ar1 + ar2
+print(output)
+
 
 # transpose of a matrix
 
